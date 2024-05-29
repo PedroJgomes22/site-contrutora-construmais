@@ -1,0 +1,335 @@
+body{
+    background-color: rgb(51, 51, 51)
+}
+
+
+.inicio {
+    background-image: url("../Exercicio-construtora/trena.png");
+    height: 600px;
+    width: 1235px;
+    padding: 100px;
+    margin-bottom: 20px;
+}
+
+
+#container{
+    display: flex; 
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+
+.div-logo {
+    display: flex;
+}
+
+
+.div-logo img{
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+.div-logo p{
+    font-family: 'helvetica';
+    font-size: 20px;
+    color: white;
+}
+
+
+.texto{
+    margin-top: 160px;
+}
+
+
+.texto h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+
+.texto p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+
+.texto a{
+    background-color: rgb(236, 204, 44);
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#apresentacao{
+    display: flex;
+    height: 550px;
+}
+
+
+.esquerda {
+    background-color: aqua;
+    background-image: url("../Exercicio-construtora/funcionario.jpg");
+    background-size: 130%;
+    width: 45%;
+    height: 100%;
+}
+
+
+.direita{
+    width: 45%;
+    padding-left: 120px;
+    /* padding-right: 200px; */
+}
+
+
+.direita h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.direita h2{
+    color: rgb(241, 192, 33);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.direita p{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+#servicos{
+    background-color: white;
+    height: 750px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#servicos h1{
+    color: black;
+    padding-left:80px;
+    padding-top: 80px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#servicos h2{
+    color:rgb(241, 192, 33);
+    padding-left:80px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.paragrafo{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.P2{
+    margin-right: 50px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+#trabalho{
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+#trabalho h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+}
+
+
+#exemplos{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ex1{
+  background-image: url("../Exercicio-construtora/funcionarios-2.png");
+  background-size: 200%;
+  padding-top: 20px;
+    height: 500px;
+    width: 400;
+    margin-left: 80px;
+}
+.ex2{
+    background-image: url("../Exercicio-construtora/casa.jpg");
+    background-size: 100%;
+    height: 500px;
+    width: 400;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+.ex3{
+    background-image: url("../Exercicio-construtora/funcionarios.jpg");
+    background-size: 200%;
+    height: 500px;
+    width: 400;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+
+#Textos{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.text1 h2{
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+    margin-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+}
+
+
+.text2 h2{
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}
+
+
+.text3 h2{
+    color: white;
+    padding-top: 20px;
+    margin-left: 15px;
+    font-size: 25px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;  
+}
+
+
+.text1 button{
+    height: 70px;
+    width: 400px;
+    background-color: rgb(241, 192, 33);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+
+.text2 button{
+    height: 70px;
+    width: 400px;
+    background-color: rgb(241, 192, 33);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+.text3 button{
+    height: 70px;
+    width: 400px;
+    background-color: rgb(241, 192, 33);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+   margin-left: 40px;
+}
+
+
+#historico{
+    background-color: white;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+#historico h1{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+
+#div_hist{
+    display: flex;
+    flex-direction: row;
+   margin-left: 20px;
+   margin-top: 30px;
+}
+
+
+.ano{
+    background-color: rgb(53, 188, 241);
+    height: 400px;
+    width: 400px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.clientes{
+    background-color: rgb(47, 120, 120);
+    height: 400px;
+    width: 400px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.construcoes{
+    margin-left: 50px;
+    background-color: rgb(46, 144, 144);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ano img{
+    height: 100px;
+  }
+  .clientes img{
+     height: 100px;
+  }
+  .construcoes img{
+    height: 100px;
+  }
+h8 {
+padding-bottom: 100px;
+}
